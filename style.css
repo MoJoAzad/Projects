@@ -1,0 +1,49 @@
+#title{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 125px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+#first, #second{
+    margin: 20px;
+}
+.header{
+    margin: 10px;
+}
+#search-engine{
+display: flex;
+justify-content: center;
+
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    width: 520px;
+    height:50px ;
+    border: none;
+    outline: none;
+}
+#wrapper{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    border-radius: 30px;
+    border: solid gainsboro 3px;
+    box-shadow: gray;
+}
+button:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    cursor: pointer;
+}
